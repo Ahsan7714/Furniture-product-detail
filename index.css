@@ -1,0 +1,350 @@
+.container-content{
+    display: flex;
+    font-family: AvantGardeGothicITCW01Bk,sans-serif;
+}
+.left-content{
+    flex: 2;
+    padding: 0px 30px;
+    border-right: 1px solid rgba(0, 0, 0, 0.301);
+}
+.right-content{
+    flex: 2;
+}
+.carousel-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-slide {
+    display: none;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+.arrows img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Gap between grid items */
+    margin-top: 30px;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%; 
+    height: 200px;
+  }
+.text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.text-content h3{
+    color: #484849;
+    font-weight: 100;
+    font-size: 25px;
+    padding-top:-10px;
+}
+.p-1{
+    font-size: 15px;
+    color: #888888ff;
+    border-bottom: 3px solid #009ee2ff;
+    padding-bottom: 4px;
+}  
+.text-content p{
+    font-size: 14px;
+    line-height: 18px;
+    color: #666667;
+}
+.text-heads{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.text-heads span{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #484849;
+}
+.sideline{
+    background-color: #484849a0;
+    height: 0.1px;
+    width: 20%;
+}
+.sidelines{
+    background-color: #484849a0;
+    height: 0.1px;
+    width: 24%;
+}
+.right-heads{
+    margin:0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.item-code{
+    color: rgba(64, 62, 62, 0.747);
+    font-size: 14px;
+    margin-top: -10px;
+}
+.sale{
+    color: rgb(230, 28, 28);
+    font-weight: 700;
+}
+.star_fill{
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+.star_fill p{
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 4px;
+}
+.delivery{
+    display: flex;
+    gap: 20px;
+}
+.delivery span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(83, 207, 207);
+    font-weight: 700;
+    font-size: 14px;
+}
+.link{
+    cursor: pointer;
+}
+.right-details{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+.thin-line{
+    background-color: #666667c0;
+    height: 0.5px;
+    width: 100%;
+    margin: 6px 0px;
+}
+.thick-line{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+.avl-colors p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.colors{
+    display: flex;
+    margin: 10px 0px;
+    font-size: 30px;
+    gap: 10px;
+}
+.red{
+    color: rgb(229, 5, 5);
+    cursor: pointer;
+}
+.yellow{
+    color: rgb(228, 228, 4);
+    cursor: pointer;
+
+}
+.blue{
+    color: rgb(6, 6, 214);
+    cursor: pointer;
+}
+.line-space{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.avl-sizes{
+    display: flex;
+    flex-direction: column;
+}
+.avl-sizes p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.sizes{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+}
+.sizes span{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: -10px;
+}
+.sizes p{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.cart-btns{
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+    align-items: center;
+}
+.inc-dec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid rgba(0, 0, 0, 0.459);
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+}
+.inc-dec button{
+    height: 30px;
+    width: 30px;
+    font-weight: 800;
+    background-color: rgb(83, 207, 207);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.add-to-cart{
+    height: 30px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.add-to-cart i{
+    position: absolute;
+    left: 32%;
+    top: 14%;
+    color: white;
+}
+.add-to-cart-btn{
+    height: 30px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgb(83, 207, 207);
+    color: white;
+    border: 0.5px solid rgba(0, 0, 0, 0.459);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sal-sav{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: -10px;
+}
+.save-price {
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #484849;
+  }
+  
+  .accordion-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+  }
+  .accordion{
+    margin-top: 40px;
+  }
+  
+  .accordion-header {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .D-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -10px;
+    font-size: 14px;
+  }
+  .max-width{
+    max-width: 60%;
+    font-size: 13px;
+    margin-top: -10px;
+  }
+  .guide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 30px ;
+  }
+@media screen and (max-width:786px) {
+    .left-content{
+        padding: 0px 20px;
+    }
+    .container-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .arrows img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 15%;
+    }
+    .grid-container {
+        gap: 10px; /* Gap between grid items */
+        margin-top: -50px;
+      }
+      .grid-item img {
+        max-width: 100%; 
+        height: 120px;
+      }
+      .text-heads span{
+        font-size: 17px;
+        font-weight: lighter;
+        color: #484849;
+    }
+    .sideline{
+        width: 8%;
+    }
+    .sidelines{
+        width: 13%;
+    }
+    .add-to-cart i{
+        left: 19%;
+    }
+}
